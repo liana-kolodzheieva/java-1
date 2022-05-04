@@ -16,7 +16,7 @@ public class Homework3 {
         // степень
         int i = 3;
         //квадратный корень
-        System.out.println("write Square root: ");
+        System.out.println("write number c: ");
         double c = Double.parseDouble(scanner.nextLine());
 
         System.out.print("|" + a + "-" + b + "|" + ":" + "(" + a + "+" + b + ")" + "^" + i + "-" + "√" + c + "=");

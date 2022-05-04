@@ -7,43 +7,47 @@ public class homewotk4 {
         Scanner scanner = new Scanner(System.in);
         //дано
         System.out.println("write 1 ball: ");
-        double a = Double.parseDouble(scanner.nextLine());
+        double ball1 = Double.parseDouble(scanner.nextLine());
         System.out.println("write 2 ball: ");
-        double b = Double.parseDouble(scanner.nextLine());
+        double ball2 = Double.parseDouble(scanner.nextLine());
         System.out.println("write 3 ball: ");
-        double c = Double.parseDouble(scanner.nextLine());
+        double ball3 = Double.parseDouble(scanner.nextLine());
         double d = 3;
-        double f = Math.PI;
+        double pi = Math.PI;
         // деля узнавания 3 шаров
-        double abc = 4.0/3.0;
+        double number = 4.0/3.0;
         // узнаем 1 шар
         //r3
-        double a1 = Math.pow(a, d);
+        double r3 = Math.pow(ball1, d);
         //Pi*r3
-        double a2 = f * a1;
+        double pir3 = pi * r3;
         //последнее действие
-        double a3 = abc * a2;
+        double ball = number * pir3;
 
         //узнаем шар 2
         // r3
-        double b1 = Math.pow(b, d);
+        double r = Math.pow(ball2, d);
         //Pi*r3
-        double b2 = f * b1;
+        double pir = pi * r;
         //последнее действие
-        double b3 = abc * b2;
+        double bal2 = number * pir;
 
         //узнаем шар 3
         //r3
-        double c1 = Math.pow(c, d);
+        double rз = Math.pow(ball3, d);
         //Pi*r3
-        double c2 = f * c1;
+        double pirз = pi * rз;
         //последнее действие
-        double c3 = abc * c2;
+        double bal3 = number * pirз;
 
         //результат
-        System.out.println("first ball : " + a3);
-        System.out.println("second ball : " + b3);
-        System.out.println("third ball : " + c3);
+        System.out.println("first ball : " + ball);
+        System.out.println("second ball : " + ball2);
+        System.out.println("third ball : " + bal3);
+        double balls = (int) (ball + ball2 + bal3);
+        System.out.println(ball + "+" + ball2 + "+" + bal3 + "=" + balls);
+        System.out.println("snowman mass: " + balls);
+        }
     }
 
-}
+
